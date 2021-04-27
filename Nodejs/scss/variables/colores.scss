@@ -1,0 +1,9 @@
+$color-titulo:rgb(170, 54, 49);
+$color-subtitulo: olive;
+$color-btnCliente: rgb(32, 87, 87);
+$color-texto:midnightblue;
+$color-cuadro: rgba(112, 157, 216, 0.411);
+@mixin color-footer {
+    background: rgba(59,55,85,1);
+    background: linear-gradient(317deg, rgba(59,55,85,1) 14%, rgba(157,66,66,1) 57%, rgba(154,7,7,1) 100%, rgba(154,7,7,1) 100%);
+}
