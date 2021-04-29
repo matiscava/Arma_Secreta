@@ -261,7 +261,7 @@ footer {
   width: 100%;
   margin-bottom: 3%; }
   .clientes__cuadro {
-    animation: animacionCliente 3s; }
+    animation: animacionClientes 3s; }
     .clientes__cuadro--dosMundos {
       order: 0;
       padding: 2vh 1vw;
