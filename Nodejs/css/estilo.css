@@ -262,36 +262,38 @@ footer {
   align-items: center;
   width: 100%;
   margin-bottom: 3%; }
-  .clientes__cuadro--dosMundos {
-    order: 0;
-    padding: 2vh 1vw;
-    margin-top: 2%;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 45vh;
-    background-image: url("../../Imagenes/banner_dosMundos.jpg"); }
-  .clientes__cuadro--macanas {
-    order: 2;
-    padding: 2vh 1vw;
-    margin-top: 2%;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 45vh;
-    background-image: url("../../Imagenes/banner_macanas.jpg"); }
-  .clientes__cuadro--antiPasto {
-    order: 1;
-    padding: 2vh 1vw;
-    margin-top: 2%;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 45vh;
-    background-image: url("../../Imagenes/banner_antipasto.jpg"); }
+  .clientes__cuadro {
+    animation: animacionClientes 3s; }
+    .clientes__cuadro--dosMundos {
+      order: 0;
+      padding: 2vh 1vw;
+      margin-top: 2%;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 80%;
+      height: 45vh;
+      background-image: url("../../Imagenes/banner_dosMundos.jpg"); }
+    .clientes__cuadro--macanas {
+      order: 2;
+      padding: 2vh 1vw;
+      margin-top: 2%;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 80%;
+      height: 45vh;
+      background-image: url("../../Imagenes/banner_macanas.jpg"); }
+    .clientes__cuadro--antiPasto {
+      order: 1;
+      padding: 2vh 1vw;
+      margin-top: 2%;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 80%;
+      height: 45vh;
+      background-image: url("../../Imagenes/banner_antipasto.jpg"); }
   .clientes__datos {
     width: 68%;
     height: 100%;
@@ -355,6 +357,21 @@ footer {
   .botonCLiente, .botonCLiente:hover {
     font-size: 2vh; } }
 
+@keyframes animacionClientes {
+  0% {
+    opacity: 0%;
+    transform: translatey(-50%); }
+  50% {
+    transform: translatey(10px); }
+  55% {
+    transform: translatey(-7px); }
+  60% {
+    transform: translatey(5px); }
+  65% {
+    transform: translatey(0px); }
+  100% {
+    opacity: 100%; } }
+
 .chat {
   /*BLOQUE 7*/
   z-index: 800;
@@ -416,7 +433,7 @@ h2.subtitulo {
     display: inline-block;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 2%;
+    margin-bottom: 2px;
     font-size: 3.2vh; }
   .enlase__span {
     font-size: 2.4vh;
@@ -492,7 +509,11 @@ h2.subtitulo {
     .videos__tituloTexto {
       font-size: 3.6vh; }
     .videos__texto {
-      font-size: 3vh; } }
+      font-size: 3vh; }
+  .enlase__texto {
+    font-size: 2.4vh; }
+  .enlase__span {
+    font-size: 2vh; } }
 
 @media screen and (max-width: 850px) and (min-width: 551px) {
   .subtitulo {
@@ -502,9 +523,13 @@ h2.subtitulo {
     .videos__tituloTexto {
       font-size: 3vh; }
     .videos__texto {
-      font-size: 2vh; } }
+      font-size: 2vh; }
+  .enlase__texto {
+    font-size: 1.6vh; }
+  .enlase__span {
+    font-size: 1.4vh; } }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 585px) {
   .subtitulo {
     font-size: 6.4vh; }
   .videos {
@@ -522,7 +547,19 @@ h2.subtitulo {
     .videos__tituloTexto {
       font-size: 3.6vh; }
     .videos__texto {
-      font-size: 2.4vh; } }
+      font-size: 2.4vh; }
+  .enlase__listado {
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%; }
+  .enlase__boton {
+    padding-left: 7%;
+    padding-right: 7%; }
+    .enlase__boton--medio {
+      border-top: 1px brown solid;
+      border-bottom: 1px brown solid; }
+    .enlase__boton:hover {
+      background-color: rgba(112, 157, 216, 0.411); } }
 
 #construccion {
   padding-top: 15vh; }

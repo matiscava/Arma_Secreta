@@ -31,7 +31,7 @@ h2.subtitulo {margin-top: 4vh;}
         display: inline-block;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 2%;
+        margin-bottom: 2px;
         font-size: $tamanoTexto*0.8;
  
     }
@@ -129,6 +129,14 @@ h2.subtitulo {margin-top: 4vh;}
             font-size: $tamanoTexto*0.75;
         }
     }
+    .enlase {
+        &__texto {
+            font-size: $tamanoTexto*0.6;
+        }
+        &__span {
+            font-size: $tamanoTexto*0.5;
+        }
+    }
 }
 @media screen and (max-width:850px) and (min-width:551px) {
     .subtitulo{font-size: $tamanoTitulo*0.7;}
@@ -141,9 +149,17 @@ h2.subtitulo {margin-top: 4vh;}
             font-size: $tamanoTexto*0.5;
         }
     }
+    .enlase {
+        &__texto {
+            font-size: $tamanoTexto*0.4;
+        }
+        &__span {
+            font-size: $tamanoTexto*0.35;
+        }
+    }
 }
     
-@media screen and (max-width:550px) {
+@media screen and (max-width:585px) {
     .subtitulo{font-size: $tamanoTitulo*0.8;}
     .videos {
         display: block;
@@ -168,4 +184,22 @@ h2.subtitulo {margin-top: 4vh;}
         }
 
      }
+     .enlase {
+        &__listado {
+            display: block;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        &__boton {
+            padding-left: 7%;
+            padding-right: 7%;
+            &--medio {
+                border-top: 1px brown solid;
+                border-bottom: 1px brown solid;
+            }
+            &:hover {
+                background-color: $color-cuadro;
+            }
+        }
+    }
 }
