@@ -34,8 +34,11 @@
         bottom: 5%;
         height: 25%; 
         width: 30%;
-     &__globo {
+        &__globo { 
+            width: 40%;
+        }
+         &__globo {
          height: 40%;
-     }
+         }
     }
 }
