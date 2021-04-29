@@ -359,13 +359,13 @@ footer {
   0% {
     opacity: 0%;
     transform: translatey(-50%); }
-  60% {
+  50% {
     transform: translatey(10px); }
-  65% {
+  55% {
     transform: translatey(-7px); }
-  70% {
+  60% {
     transform: translatey(5px); }
-  75% {
+  65% {
     transform: translatey(0px); }
   100% {
     opacity: 100%; } }
