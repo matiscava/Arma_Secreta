@@ -200,7 +200,9 @@ footer {
 
 @media screen and (max-width: 800px) and (min-width: 551px) {
   .seccionDos__subtitulo {
-    font-size: 3vh; } }
+    font-size: 3vh; }
+  .seccionUno__texto {
+    font-size: 1.6vh; } }
 
 @media screen and (max-width: 550px) {
   .seccionUno {
