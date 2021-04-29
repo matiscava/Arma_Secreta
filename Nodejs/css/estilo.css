@@ -407,7 +407,8 @@ footer {
     .chat__globo {
       width: 35%; }
     .chat__globo {
-      height: 60%; } }
+      height: 40%;
+      width: 65; } }
 
 h2.subtitulo {
   margin-top: 4vh; }
