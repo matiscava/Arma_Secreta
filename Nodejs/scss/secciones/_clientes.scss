@@ -32,6 +32,8 @@
     margin-bottom: 3%;
 
     &__cuadro {
+            animation: animacionCliente 3s;
+
             
             &--dosMundos {
                 @include cuadroCliente (0,dosMundos);
@@ -138,3 +140,9 @@
     font-size: $tamanoBtnCliente/1.5;
 }
 }
+
+@keyframes animacionClientes {
+    0% {opacity: 0%;transform: translatey(-50%)}
+    65% {transform:translatey(0px);}
+    100% {opacity: 100%;}
+    }

@@ -260,36 +260,38 @@ footer {
   align-items: center;
   width: 100%;
   margin-bottom: 3%; }
-  .clientes__cuadro--dosMundos {
-    order: 0;
-    padding: 2vh 1vw;
-    margin-top: 2%;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 45vh;
-    background-image: url("../../Imagenes/banner_dosMundos.jpg"); }
-  .clientes__cuadro--macanas {
-    order: 2;
-    padding: 2vh 1vw;
-    margin-top: 2%;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 45vh;
-    background-image: url("../../Imagenes/banner_macanas.jpg"); }
-  .clientes__cuadro--antiPasto {
-    order: 1;
-    padding: 2vh 1vw;
-    margin-top: 2%;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 45vh;
-    background-image: url("../../Imagenes/banner_antipasto.jpg"); }
+  .clientes__cuadro {
+    animation: animacionCliente 3s; }
+    .clientes__cuadro--dosMundos {
+      order: 0;
+      padding: 2vh 1vw;
+      margin-top: 2%;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 80%;
+      height: 45vh;
+      background-image: url("../../Imagenes/banner_dosMundos.jpg"); }
+    .clientes__cuadro--macanas {
+      order: 2;
+      padding: 2vh 1vw;
+      margin-top: 2%;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 80%;
+      height: 45vh;
+      background-image: url("../../Imagenes/banner_macanas.jpg"); }
+    .clientes__cuadro--antiPasto {
+      order: 1;
+      padding: 2vh 1vw;
+      margin-top: 2%;
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 80%;
+      height: 45vh;
+      background-image: url("../../Imagenes/banner_antipasto.jpg"); }
   .clientes__datos {
     width: 68%;
     height: 100%;
@@ -352,6 +354,15 @@ footer {
     width: 50%; }
   .botonCLiente, .botonCLiente:hover {
     font-size: 2vh; } }
+
+@keyframes animacionClientes {
+  0% {
+    opacity: 0%;
+    transform: translatey(-50%); }
+  65% {
+    transform: translatey(0px); }
+  100% {
+    opacity: 100%; } }
 
 .chat {
   /*BLOQUE 7*/
