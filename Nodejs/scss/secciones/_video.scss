@@ -188,11 +188,11 @@ h2.subtitulo {margin-top: 4vh;}
         &__listado {
             display: block;
             margin-left: 0%;
-          margin-right: 0%;
+            margin-right: 0%;
         }
         &__boton {
-            margin-left: 7%;
-            margin-right: 7%;
+            padding-left: 7%;
+            padding-right: 7%;
             &:hover {
                 background-color: $color-cuadro;
             }
