@@ -31,6 +31,11 @@
 }
 @media screen and (max-width:550px) {
     .chat {
-        bottom: 15%;
+        bottom: 5%;
+        height: 25%; 
+        width: 30%;
+     &__globo {
+         height: 40%;
+     }
     }
 }
