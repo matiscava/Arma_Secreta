@@ -159,7 +159,7 @@ h2.subtitulo {margin-top: 4vh;}
     }
 }
     
-@media screen and (max-width:550px) {
+@media screen and (max-width:585px) {
     .subtitulo{font-size: $tamanoTitulo*0.8;}
     .videos {
         display: block;
@@ -185,11 +185,8 @@ h2.subtitulo {margin-top: 4vh;}
 
      }
      .enlase {
-        &__texto {
-            font-size: $tamanoTexto*0.2;
-        }
-        &__span {
-            font-size: $tamanoTexto*0.18;
+        &__listado {
+            display: block;
         }
     }
 }
