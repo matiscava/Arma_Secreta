@@ -401,13 +401,13 @@ footer {
 
 @media screen and (max-width: 550px) {
   .chat {
-    bottom: 5%;
-    height: 25%;
-    width: 30%; }
+    bottom: 10%;
+    height: 15%;
+    width: 40%; }
     .chat__globo {
-      width: 40%; }
+      width: 35%; }
     .chat__globo {
-      height: 40%; } }
+      height: 60%; } }
 
 h2.subtitulo {
   margin-top: 4vh; }
