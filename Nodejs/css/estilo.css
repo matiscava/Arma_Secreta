@@ -530,7 +530,14 @@ h2.subtitulo {
     .videos__texto {
       font-size: 2.4vh; }
   .enlase__listado {
-    display: block; } }
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%; }
+  .enlase__boton {
+    margin-left: 7%;
+    margin-right: 7%; }
+    .enlase__boton:hover {
+      background-color: rgba(112, 157, 216, 0.411); } }
 
 #construccion {
   padding-top: 15vh; }
