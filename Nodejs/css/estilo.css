@@ -536,6 +536,9 @@ h2.subtitulo {
   .enlase__boton {
     padding-left: 7%;
     padding-right: 7%; }
+    .enlase__boton--medio {
+      border-top: 1px brown solid;
+      border-bottom: 1px brown solid; }
     .enlase__boton:hover {
       background-color: rgba(112, 157, 216, 0.411); } }
 

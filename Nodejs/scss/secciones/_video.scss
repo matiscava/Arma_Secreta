@@ -193,6 +193,10 @@ h2.subtitulo {margin-top: 4vh;}
         &__boton {
             padding-left: 7%;
             padding-right: 7%;
+            &--medio {
+                border-top: 1px brown solid;
+                border-bottom: 1px brown solid;
+            }
             &:hover {
                 background-color: $color-cuadro;
             }
