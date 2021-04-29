@@ -134,7 +134,7 @@ h2.subtitulo {margin-top: 4vh;}
             font-size: $tamanoTexto*0.6;
         }
         &__span {
-            font-size: $tamanoTexto*0.4;
+            font-size: $tamanoTexto*0.5;
         }
     }
 }
@@ -147,6 +147,14 @@ h2.subtitulo {margin-top: 4vh;}
         }
         &__texto {
             font-size: $tamanoTexto*0.5;
+        }
+    }
+    .enlase {
+        &__texto {
+            font-size: $tamanoTexto*0.4;
+        }
+        &__span {
+            font-size: $tamanoTexto*0.3;
         }
     }
 }
