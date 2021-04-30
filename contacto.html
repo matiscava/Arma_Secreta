@@ -8,8 +8,6 @@
   <meta name="keywords" content="Arma Secreta, Agencia digital, Marketing digital, Contacto, Request, Chat">
   <meta name="description" content="Contactate con nosotros y asegurate el mejor servicio de Marketing Digital.">
   <title>ARMA SECRETA - AGENCIA DIGITAL | CONTACTO</title>
-  <link rel="stylesheet" href="menu.css">
-  <link rel="stylesheet" href="main.js">
   <link rel="stylesheet" href="Nodejs/css/estilo.css">
   <link rel="stylesheet" href="Iconos/fonts.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -36,7 +34,7 @@
     }
 
     main {
-      min-height: 71.5vh;
+      min-height: calc(91.5vh - 85px);
     }
     H1,H2 { display: inline-block;}
   </style>
@@ -47,29 +45,30 @@
 
 <body background="Imagenes/greek-vase/greek-vase.png">
   <header>
-    <div class="menu_bar">
-      <a href="#" class="btn_menu"><img src="Imagenes/logosecretoblanco.png" alt="Arma secreta"
-          id="armaSecretaLogo"><span class="icon-menu1"></span>MENU</a>
-    </div>
-    <nav>
-      <ul>
-        <li id="logo"><a href="#"><img src="Imagenes/logosecretoblanco.png" alt="Arma secreta" id="armaSecretaLogo"></a>
-        </li>
-        <li><a href="index.html" class="boton"><span class="icon-home"></span> HOME</a></li>
-        <li><a href="clientes.html" class="boton">CLIENTES</a></li>
-        <li><a href="quienesSomos.html" class="boton">QUIENES SOMOS</a></li>
-        <li class="sub_menu">
-          <a href="#" class="boton"><span class="icon-youtube"></span> VIDEOS <span
-              class="caret icon-cheveron-down"></span></a>
-              <ul class="hijo">
-                <li><a href="videoTutorial.html">TODOS LOS VIDEOS<span class="icon-moon"></span></a></li>
-                <li><a href="video1.html">CAMBIA PRECIOS E INVENTARIO EN MASA - SIN PLUGINS<span
-                            class="icon-moon"></span></a></li>
-                <li><a href="video2.html">COMO REGISTRAR UN DOMINIO WEB .COM.AR<span
-                            class="icon-moon"></span></a></li>
+    <nav class="menu">
+    <input type="checkbox" id="menubox">
+    <label class="menu__checkbtn" for="menubox">
+        <i class="icon-menu1"></i>
+    </label>
+      <label class="menu__logo">
+        <a href="#"><img src="Imagenes/logosecretoblanco.png" alt="Arma secreta" id="armaSecretaLogo" class="menu__img"></a>
+      </label>
+      <ul class="menu__secciones">
+        <li class="menu__li"><a href="index.html" class="menu__boton"><span class="icon-home menu__span"></span> HOME</a></li>
+        <li class="menu__li"><a href="clientes.html" class="menu__boton">CLIENTES</a></li>
+        <li class="menu__li">
+          <a href="#" class="menu__boton"><span class="icon-youtube menu__span"></span> VIDEOS <span
+            class="icon-cheveron-down menu__span"></span></a>
+              <ul class="menu__submenu">
+                <li class="menu__subLi"><a href="videoTutorial.html" class="menu__submenuBtn">TODOS LOS VIDEOS<span class="icon-moon menu__submenuSpan"></span></a></li>
+                <li class="menu__subLi"><a href="video1.html" class="menu__submenuBtn">CAMBIA PRECIOS E INVENTARIO EN MASA - SIN PLUGINS<span
+                            class="icon-moon menu__submenuSpan"></span></a></li>
+                <li class="menu__subLi menu__subLi--ultimo"><a href="video2.html" class="menu__submenuBtn">COMO REGISTRAR UN DOMINIO WEB .COM.AR<span
+                  class="icon-moon menu__submenuSpan"></span></a></li>
             </ul>
         </li>
-        <li><a href="contacto.html" class="boton">CONTACTO</a></li>
+        <li class="menu__li"><a href="quienesSomos.html" class="menu__boton">QUIENES SOMOS</a></li>
+        <li class="menu__li"><a href="contacto.html" class="menu__boton">CONTACTO</a></li>
       </ul>
     </nav>
   </header>
@@ -156,7 +155,6 @@
     </footer>
 
   <script src="http://code.jquery.com/jquery-latest.js"></script>
-  <script src="main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
     integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
   </script>

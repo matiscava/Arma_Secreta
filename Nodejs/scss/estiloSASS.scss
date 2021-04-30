@@ -2,7 +2,7 @@ body {
     margin:0;
     padding:0;
     box-sizing: border-box;
-    padding-top: 20vh;
+    padding-top: 85px;
 }
 
 /*VARAIBALES*/
@@ -31,6 +31,7 @@ body {
     @import 'secciones/chat';
     @import 'secciones/video';
     @import 'secciones/construccion';
+    @import 'secciones/menu';
 
 
 

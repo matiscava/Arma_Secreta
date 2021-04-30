@@ -93,7 +93,7 @@
         }
     }
 }
-@media screen and (max-width:800px) and (min-width:551px) {
+@media screen and (max-width:963px) and (min-width:578px) {
     .seccionDos {
         &__subtitulo {
             font-size: $tamanoSubtitulo*0.5;
@@ -106,8 +106,15 @@
     }
 
 }
+@media screen and (max-width:812px) and (min-width:578px){
+    .seccionUno {
+        &__texto {
+            font-size: $tamanoTexto*0.35;
+        }
+    }
+}
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:577px) {
     .seccionUno {
         flex-direction: column;
         &__div {
